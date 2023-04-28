@@ -11,7 +11,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 0px 50px;
+    padding: 0px 100px;
     align-items: center;
     box-shadow: 0px 0px 7px #888;
 }
@@ -25,6 +25,7 @@ nav .links a {
     display: block;
     text-decoration: none;
     color: #382c32;
+    cursor: pointer;
 }
 
 nav .links a.ativo {
@@ -43,4 +44,22 @@ nav .links a.ativo:hover {
 nav .logo img {
     width: 200px;
     height: auto;
+}
+
+footer {
+    padding: 60px 100px;
+    background-color: var(--rosa);
+    color: var(--branco);
+}
+
+footer .petshop {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+
+footer .copy {
+    text-align: center;
 }

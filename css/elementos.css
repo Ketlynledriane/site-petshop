@@ -1,0 +1,9 @@
+button {
+    background-color: var(--rosa);
+    color: var(--branco);
+    border-radius: 8px;
+    border: 0;
+    padding: 10px 40px;
+    
+}
+

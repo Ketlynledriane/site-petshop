@@ -10,30 +10,185 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/elementos.css">
 
+
+    <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <img src="imagens/site/logo-colored.svg">
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="imagens/site/logo-colored.svg">
+            </div>
+
+            <div class="links">
+                <a class="ativo" href="index.html">Home</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="">Produtos</a>
+                <a href="">Serviços</a>
+                <a href="">Fale conosco</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner">
+            <img src="imagens/home/banner.jpg">
+        </section>
+
+        <section id="servicos" >
+            <h2>Nossos serviços</h2>
+    
+            <div class="servicos-container">  <!-- flex -->
+                <div class="servico">
+                    <div>
+                        <i class="fa-solid fa-paw"></i> <!-- color -->
+                    </div>
+                    <span>Produtos</span>
+                    <p>Uma variedade de rações, petiscos, brinquedos e acessórios para atender o seu amiguinho da melhor forma.</p>
+                </div>
+    
+                <div class="servico">
+                    <div>
+                        <i class="fa-solid fa-shower"></i>
+                    </div>
+                    <span>Banho e tosa</span>
+                    <p>Para deixar seu amiguinho com o padrão de beleza que ele merece e muito cheiroso.</p>
+                </div>
+
+                <div class="servico">
+                    <div>
+                        <i class="fa-solid fa-syringe"></i>
+                    </div>
+                    <span>Centro Médico</span>
+                    <p>Atendimento veterinário especializado para garantir a saúde e o bem-estar do seu amigo.</p>
+                </div>
+    
+                <div class="servico">
+                    <div>
+                        <i class="fa-solid fa-dog"></i>
+                    </div>
+                    <span>Creche</span>
+                    <p>Traga seu pet para interagir com a nossa equipe e socializar com outros animais e fique tranquilo(a) para suas atividades do dia-a-dia.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="petshop">
+            <h1>pet&shop</h1>
+            <div class="sobre">    
+                <p><b>Só quem é apaixonado por animais sabe:</b> a relação de amor e cumplicidade que temos com nossos bichinhos de estimação é um vínculo único! Por essa razão, não medimos esforços para oferecer o que há de melhor para trazer ainda mais alegria e qualidade de vida. Rações, acessórios, medicamentos e brinquedos estão na nossa listinha de prioridades; e tudo isso você encontra aqui na Pet shop online.</p>
+            </div>    
+        </section>
+
+        <section id="produtos">
+            <h2>Produtos em destaque</h2>
+
+            <div class="row">
+                <div class="column">
+                    <img src="imagens/home/product-1.webp">
+                    <span>Royal Canin Maxi Adult 15kg</span>
+                    <p>R$ 109,90</p>
+                </div>    
+                <div class="column">
+                    <img src="imagens/home/product-2.webp">
+                    <span>Premier Fórmula Raças Adulto</span>
+                    <p>R$ 79,90</p>
+                </div>
+                <div class="column">
+                    <img src="imagens/home/product-3.webp">
+                    <span>Pro Plan Raças Pequenas Reduced Calorie</span>
+                    <p>R$ 79,90</p>
+                </div>
+                <div class="column">
+                    <img src="imagens/home/product-4.webp">
+                    <span>EasOtic 10ml - Virbac</span>
+                    <p>R$ 169,90</p>
+                </div>
+                <div class="column">
+                    <img src="imagens/home/product-5.webp">
+                    <span>Moletom Snoopy Sleeping Azul- Zooz</span>
+                    <p>R$39,90</p>
+                </div>  
+                <div class="column">
+                    <img src="imagens/home/product-6.webp">
+                    <span>N&D Ancestral Selection Cães Adultos Raças Grandes</span>
+                    <p>R$ 89,90</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <img src="imagens/home/product-7.webp">
+                    <span>Kill Hills Prescription Diet Lata A/D Urgent Care 156g</span>
+                    <p>R$ 44,90</p>
+                </div>
+
+                <div class="column">
+                    <img src="imagens/home/product-8.webp">
+                    <span>Three Cats Original Sênior 10,1kg</span>
+                    <p>R$ 69,90</p>
+                </div>
+                
+                <div class="column">
+                    <img src="imagens/home/product-9.webp">
+                    <span>Peitoral Ergocomfort Rosa Ferplast</span>
+                    <p>R$ 139,90</p>
+                </div>
+
+                <div class="column">
+                    <img src="imagens/home/product-10.webp">
+                    <span>Peitoral Para Cachorros Sail Dog 27</span>
+                    <p>R$ 114,90</p>
+                </div>
+
+                <div class="column">
+                    <img src="imagens/home/product-11.webp">
+                    <span>Guia Para Cachorros Tropical dog 27</span>
+                    <p>R$ 114,90</p>
+                </div>
+
+                <div class="column">
+                    <img src="imagens/home/product-12.webp">
+                    <span>Guia Para Cachorros One Dog 27</span>
+                    <p>R$ 114,90</p>
+                </div>
+            </div>
+            <button>Ver mais</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="petshop">
+            <h2>pet&shop</h2>
         </div>
 
-        <div class="links">
-            <a class="ativo" href="">Home</a>
-            <a href="">Sobre</a>
-            <a href="">Produtos</a>
-            <a href="">Serviços</a>
-            <a href="">Fale conosco</a>
+        <div class="contato">
+            <span><b>Contato</b></span>
+            <p><br>Estrada sem nome, 1234, Sala 0</br>Bairro - Cidade / UF</br>12345-678</br><b>(00) 99999-9999</b></br><b>contato@petshop.com.br</b></p>
         </div>
-    </nav>
+
+        <div class="horario">
+            <p><br><b>Horário de funcionamento:</b></br>
+            De Segunda a Sexta-feira das 9 às 19hs.</br>
+            Aos Sábados das 9 às 18hs.</p>
 
 
+        <div class="redes">
+            <p>Siga-nos</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
 
-
-
-
-
-
+        <div class="copy">
+            © 2023 pet&shop | Todos os direitos reservados. Desenvolvido por <b>Crie_TI</b>  
+        </div>
+    </footer>
 
 </body>
 </html>
