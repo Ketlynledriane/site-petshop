@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex; 
+    padding: 60px 100px;
+    gap: 30px;
+}
+
+.titulo-sobre {
+    margin-bottom: 20px;
+}
+
+.imagem {
+    height: auto;
+    max-width: 400px;
+}
+
+.sobre-informacoes span{
+    margin-bottom: 10px;
+    display: block;
+}
+
+button {
+    margin-top: 30px;
+}
+    

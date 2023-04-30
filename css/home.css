@@ -22,9 +22,14 @@ main #servicos .servico i {
     gap: 20px;
 }
 
+.servico i:hover {
+    transform: rotate(25deg) scale(120%);
+}
+
 .servico i {
     font-size: 70px;
     padding: 0px 0px 30px; 
+    transition: all 0.5s;
 }
 
 .servico span {
@@ -40,6 +45,9 @@ main #servicos .servico i {
     font-size: 16px;
 }
 
+.petshop-logo-branco {
+    width: 200px;
+}
 
 /* Petshop */
 #petshop {
