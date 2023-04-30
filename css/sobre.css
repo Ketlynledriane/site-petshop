@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .row {
     display: flex; 
     padding: 60px 100px;
@@ -27,4 +21,3 @@
 button {
     margin-top: 30px;
 }
-    
