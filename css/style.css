@@ -62,7 +62,7 @@ footer .container {
     font-weight: 500;
 }
 
-footer .contato-informacoes span:not(.negrito), footer.horario span {
+footer .contato-informacoes span:not(.negrito) {
     display: block;
     font-size: 16px;
     font-weight: 100;
@@ -75,18 +75,21 @@ footer .contato {
     font-weight: 500;
 }
 
-footer .horario span {
+footer .horario span, footer .titulo-horario {
     font-size: 16px;
     display: block;
     text-align: center;
     font-weight: 100;
-    opacity: 0.8;
 }
 
 footer .titulo-horario {
     margin-bottom: 18px;
     font-weight: 500;
     font-size: 18px;
+}
+
+footer .horario span {
+    opacity: 0.8;
 }
 
 footer .img-petshop-footer {
