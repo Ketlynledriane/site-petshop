@@ -13,7 +13,7 @@ nav {
     justify-content: space-between;
     padding: 0px 100px;
     align-items: center;
-    box-shadow: 0px 0px 7px #888;
+    box-shadow: 0px 0px 25px #dedddd;
 }
 
 nav .links {
@@ -62,10 +62,11 @@ footer .container {
     font-weight: 500;
 }
 
-footer .contato-informacoes span:not(.negrito) {
+footer .contato-informacoes span:not(.negrito), footer.horario span {
     display: block;
     font-size: 16px;
     font-weight: 100;
+    opacity: 0.8;
 }
 
 footer .contato {
@@ -74,17 +75,16 @@ footer .contato {
     font-weight: 500;
 }
 
-
-
-footer .horario span, footer .titulo-horario {
+footer .horario span {
     font-size: 16px;
     display: block;
     text-align: center;
     font-weight: 100;
+    opacity: 0.8;
 }
 
 footer .titulo-horario {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     font-weight: 500;
     font-size: 18px;
 }
@@ -111,7 +111,7 @@ footer .copy {
     text-align: center;
     border-top: 1px solid rgba(255,216,234,0.3);
     padding-top: 30px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 100;
 }
 
@@ -122,4 +122,10 @@ footer .redes-informacoes i {
 
 footer .redes-informacoes i:hover {
     transform: rotate(25deg) scale(120%);
+}
+
+
+a , button {
+    text-decoration: none;
+    cursor: pointer;
 }

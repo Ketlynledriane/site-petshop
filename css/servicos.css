@@ -1,0 +1,111 @@
+p {
+    font-size: 18px;
+}
+
+span {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.container-servicos {
+    display: flex;
+}
+
+.container-servicos:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.container-servicos:nth-child(even) .servicos-descricao {
+    text-align: right;
+}
+
+.servicos-imagem {
+    width: 45%;
+}
+
+.servicos-imagem img {
+    height: 450px;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.servicos-descricao {
+    width: 100%;
+    padding: 100px 40px;
+    font-size: 20px;
+    color: var(--branco);
+}
+
+.servicos-descricao span {
+    margin-bottom: 20px;
+    display: block;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+h2.tosa {
+    color: var(--rosa);
+}
+
+.tosa-descricao {
+    color: var(--preto);
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.centro-descricao, .farmacia-descricao, .entrega-descricao, .busca-descricao, .creche-descricao, .hotel-descricao {
+    font-size: 18px;
+    font-weight: 200;
+    color: var(--branco);
+}
+
+.tosa-desc2 {
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--cinza);
+    opacity: 0.8;
+}
+
+.centro-desc2, .farmacia-desc2, .entrega-desc2, .busca-desc2, .creche-desc2, .hotel-desc2 {
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 200;
+    opacity: 0.8;
+}
+
+.hotel-img {
+    object-position: bottom;
+}
+
+
+.fundo-cinza {
+    background-color: var(--cinza-claro);
+}
+
+.fundo-rosa {
+    background-color: var(--rosa);
+}
+
+.fundo-azul {
+    background-color: var(--azul);
+}
+
+.fundo-laranja {
+    background-color: var(--laranja);
+}
+
+.fundo-roxo {
+    background-color: var(--roxo);
+}
+
+.fundo-verde {
+    background-color: var(--verde);
+}
+
+.fundo-preto {
+    background-color: var(--preto);
+}
