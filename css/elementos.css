@@ -1,4 +1,4 @@
-button {
+button, .botao {
     background-color: var(--rosa);
     color: var(--branco);
     border-radius: 8px;
