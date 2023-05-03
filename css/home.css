@@ -110,7 +110,7 @@ main #servicos .servico i {
 }
 
 #produtos .row .column:hover {
-    opacity: 30%;
+    opacity: 0.8;
     border-radius: 10px; 
     border-color: var(--cinza-claro);
 }

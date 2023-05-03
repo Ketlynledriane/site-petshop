@@ -7,15 +7,15 @@ span {
     margin-bottom: 10px;
 }
 
-.container-servicos {
+.row-servicos {
     display: flex;
 }
 
-.container-servicos:nth-child(even) {
+.row-servicos:nth-child(even) {
     flex-direction: row-reverse;
 }
 
-.container-servicos:nth-child(even) .servicos-descricao {
+.row-servicos:nth-child(even) .servicos-descricao {
     text-align: right;
 }
 
@@ -83,7 +83,7 @@ h2.tosa {
 
 
 .fundo-cinza {
-    background-color: var(--cinza-claro);
+    background-color: var(--branco);
 }
 
 .fundo-rosa {
