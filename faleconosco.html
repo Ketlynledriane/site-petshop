@@ -22,9 +22,21 @@
 <body>
     <header>
         <nav>
-            <div class="logo">
-                <img src="imagens/site/logo-colored.svg">
+            <div class="cabecalho">
+                <div class="menu-botao-mobile">
+                    <label class="toggle-button" for="toggle">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                </div>
+
+                <div class="logo">
+                    <img src="imagens/site/logo-colored.svg">
+                </div>
+
+                
             </div>
+
+            <input class="toggle-checkbox" id="toggle" type="checkbox">
 
             <div class="links">
                 <a href="index.html">Home</a>
@@ -119,7 +131,9 @@
     </main>
 
     <footer>
-        <img class="img-petshop-footer" src="imagens/home/logo-white.svg">
+        <div class="container-imagem">
+            <img class="img-petshop-footer" src="imagens/home/logo-white.svg">
+        </div>
 
         <div class="container">
             <div class="contato-informacoes">
@@ -149,7 +163,13 @@
             </div>
         </div>
         <div class="copy">
-            © 2023 pet&shop | Todos os direitos reservados. Desenvolvido por <b>Crie_TI</b>
+            <div>
+                © 2023 pet&shop | Todos os direitos reservados.
+            </div>
+
+            <div>
+                Desenvolvido por <b>Crie_TI</b>
+            </div>
         </div>
     </footer>
 

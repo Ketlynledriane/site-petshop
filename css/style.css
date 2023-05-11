@@ -117,9 +117,10 @@ footer .redes-informacoes {
 }
 
 footer .copy {
-    display: block;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
     margin-top: 50px;
-    text-align: center;
     border-top: 1px solid rgba(255,216,234,0.3);
     padding-top: 30px;
     font-size: 14px;
@@ -139,4 +140,79 @@ footer .redes-informacoes i:hover {
 a , button {
     text-decoration: none;
     cursor: pointer;
+}
+
+header .menu-botao-mobile, header .toggle-checkbox {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        padding: 0;
+        align-items: normal;
+    }
+
+    nav .cabecalho {
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;      
+    }
+
+    header .links {
+        position: fixed;
+        top: 50px;
+        bottom: 0;
+        left: -100vw;
+        width: 100%;
+        right: 0;
+        background-color: #ffffff;
+        flex-direction: column;
+        align-items: center;       
+        transition: all 0.5s ease;
+    }
+
+    header .links a {
+        text-align: center;
+        width: 100%;
+    }
+
+    header .toggle-checkbox:checked ~ .links {
+        left: 0;
+    }
+
+    header .menu-botao-mobile {
+        display: block;
+    }
+
+    footer {
+        padding: 60px 50px;
+    }
+
+    footer .horario, footer .siganos, footer .contato {
+        display: none;
+    }
+
+    footer .container {
+        flex-direction: column;   
+        align-items: center; 
+        text-align: center;   
+    }
+
+    footer .container-imagem {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .redes-informacoes {
+        font-size: 140%;
+        gap: 20px;
+    }
+
+    footer .copy {
+        flex-direction: column;
+        text-align: center;
+    }
 }
